@@ -7,6 +7,7 @@ import Highcharts from 'highcharts';
 
 import ReactUJS from '../shared/react-ujs';
 import reactComponents from '../shared/react-components';
+import 'actiontext';
 
 import '../shared/activestorage/ujs';
 import '../shared/rails-ujs-fix';
