@@ -379,7 +379,7 @@ Rails.application.routes.draw do
         end
       end
 
-      resources :mail_templates, only: [:edit] do
+      resources :mail_templates, only: [:edit, :update] do
         get 'preview', on: :member
       end
     end
